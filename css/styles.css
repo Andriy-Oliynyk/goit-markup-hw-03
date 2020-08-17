@@ -1,0 +1,63 @@
+/* колір тексту в заголовках #212121 */
+/* основний колір тексту #757575 */
+/* білий текст #FFFFFF */
+/* акцент #2196F3 */
+/* емейл rgba(255, 255, 255, 0.6) */
+
+/* колір фону основний #FFFFFF */
+/* колір фону другорядний #F5F4FA */
+
+/* стилізація навігації сайту */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+/* основний колір сторінки і тексту*/
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Шапка*/
+
+/* Швидкі посилання переходу*/
+.site-navigation a {
+    color: var(--title-text-color);
+}
+
+.site-navigation :hover, 
+.site-navigation :focus {
+    color: var(--accent-color);
+}
+
+/* Контакти*/
+
+.auth-nav {
+    color: var(--primary-text-color);
+}
+.auth-nav :hover,
+.auth-nav :focus {
+    color: var(--accent-color);
+}
+
+/* Колір заголовків*/
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.feature .title {
+    color: var(--title-text-color);
+}
+
+.name-title {
+    color: var(--title-text-color);
+}
